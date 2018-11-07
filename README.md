@@ -1,2 +1,2 @@
 # Office-Comma
-A project for an architecture company
+A template project for an architecture company
