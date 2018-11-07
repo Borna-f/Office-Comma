@@ -1,0 +1,21 @@
+﻿body {
+    background-color: #fff;
+    background-image: url("../PICS/main.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-height:100%;
+    max-width:100%;
+}
+
+
+
+li {
+color: black;
+
+}
+
+ul {
+    position:relative;
+    padding-left:20px;
+}
+

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+body
+{
+overflow: scroll;
+}
+img
+{
+border:none;
+}
+
+
+
+.ContentTeams
+{
+width:39%;
+height:622px;
+background-color:buttonFace;
+margin:auto;
+display:none;
+padding-top:1px;
+padding-left: 30px;
+padding-right:30px;
+padding-bottom:1px;
+}
+
+
+.ContentProjects
+{
+width:39%;
+height:622px;
+background-color:buttonshadow;
+margin:auto;
+display:none;
+padding-top:1px;
+padding-left: 30px;
+padding-right:30px;
+padding-bottom:1px;
+}
+
+
+.ContentAbout-US
+{
+width:39%;
+height:622px;
+background-color:white;
+margin:auto;
+display:none;
+padding-top:1px;
+padding-left: 30px;
+padding-right:30px;
+padding-bottom:1px;
+}
+
+.Logo
+{
+	float:right;
+	float:top;
+}

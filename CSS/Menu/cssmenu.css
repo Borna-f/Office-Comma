@@ -1,0 +1,79 @@
+﻿#cssmenu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 15%;
+  /*position: relative;*/
+  display: block;
+  height: 36px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: lowercase;
+  background: transparent url('bg.jpg') repeat-x top left;
+  font-family: 'Trebuchet MS', Helvetica, Arial, Verdana, sans-serif;
+  
+  
+}
+#cssmenu ul {
+  /*float: left;*/
+  margin: 0;
+  list-style-type: none;
+  
+}
+#cssmenu ul a {
+  /*float: left;*/
+  /*color: #999999;*/
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  
+  height: 24px;
+}
+#cssmenu ul a:hover {
+  color: red;
+  background: transparent url('over.jpg') no-repeat top right;
+  /*background-image:url("cloud.png");
+  border-radius:4px;*/
+}
+
+#cssmenu ul li.active a {
+ /*color: #333333;*/
+ color: #70009c;
+    /*background-image:url("cloud.png");
+  border-radius:4px;*/
+}
+
+
+
+#BottomPosition {
+bottom: 6em;
+left:1em;
+right:1em;
+position: fixed;
+width: 850px;
+text-align:left;
+}
+
+
+#cssmenu ul li a:hover:before {
+  width: 50%;
+}
+
+
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .40s;
+  -moz-transition: width .40s;
+  -ms-transition: width .40s;
+  -o-transition: width .40s;
+  transition: width .40s;
+}
+
+

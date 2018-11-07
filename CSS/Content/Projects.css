@@ -1,0 +1,33 @@
+.ProjectTextPosition
+{
+display:none;
+}
+
+
+table.Proj
+{
+width:100%;
+table-layout: fixed;
+}
+td.Proj
+{
+padding-left:25px;
+}
+
+.ProjectTextPosition .Pr1
+{
+
+display:none;
+}
+
+.ContentProjects  .Pr2
+{
+display:none;
+}
+
+.ProjectTextPosition .Pr3
+{
+
+display:none;
+
+}

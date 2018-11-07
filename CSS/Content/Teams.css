@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.img
+{
+width:70%;
+}
+.img1
+{
+width:35%;
+}
+table.TM
+{
+min-width:100%;
+}
+
+td.TM
+{
+text-align:center;
+}
+
+
+.TextPosition
+{
+display:none;
+}
+.TextPosition .mem1
+{
+display:none;
+}
+
+.TextPosition .mem2
+{
+display:none;
+}
+
+.TextPosition .mem3
+{
+display:none;
+}
+
+
